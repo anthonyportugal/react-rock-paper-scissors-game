@@ -1,0 +1,35 @@
+.result {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  &__question {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    h2 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: var(--color-secondary);
+      font-weight: bold;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: var(--color-tertiary);
+        font-size: 1.3rem;
+        font-style: italic;
+      }
+    }
+  }
+  &__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

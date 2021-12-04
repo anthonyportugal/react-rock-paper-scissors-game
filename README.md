@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Rock, Paper and Scissors Game
+Rock, paper and scissors game made with react made for university university homework.
+
+#
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
